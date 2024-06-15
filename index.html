@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>FocusHealth</title>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="FocusHealth - Your personal health website for reliable and up-to-date health information.">
+  <meta name="keywords" content="health, doctor, medical, services, appointment, personal health">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" as="style">
+  
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+  
+
+</head>
+
+<body>
+
+  <header>
+    <nav>
+      <img class="logo" src="./focushealth-logo.png" alt="FocusHealth Logo" width="150" height="50">
+      <div>Welcome to Your Health Website</div>
+      <div class="right">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="location.html">Location</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="aboutus.html">About Us</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="imgg"></div>
+    <section class="firstsection">
+      <div class="leftsection">
+        <ul>
+          <li>Welcome to Your Personal <span class="red">Doctor</span></li>
+          <li><span id="element"></span></li>
+        </ul>
+        <div class="dtls">
+          <button class="detailbutton">Get Details</button>
+          <button class="appointmentbutton">Get Appointment</button>
+        </div>
+      </div>
+      <img src="./f1.png" alt="Your health image" width="344" height="auto" style="margin: 40px 0 0 0px;">
+    </section>
+  </main>
+
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js" defer></script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Diet should be good', 'Run daily'],
+      typeSpeed: 50,
+    });
+  </script>
+
+  <footer>
+    <small><i>Copyright &copy; 2020 Praharsh Patel Here</i></small>
+  </footer>
+</body>
+
+</html>
